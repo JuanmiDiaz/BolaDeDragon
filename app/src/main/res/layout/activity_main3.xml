@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@drawable/segundapantallafinal">
+
+
+    <LinearLayout
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110sp"
+        android:layout_marginTop="240sp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="#03FFFFFF"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90sp"
+        android:background="#00FFFFFF"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btncaptura"
+            android:layout_width="259dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#02FFFFFF"
+            app:srcCompat="@drawable/bolaboton2"
+            android:onClick="cogerBola"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90sp"
+        android:layout_marginTop="120sp"
+        android:layout_marginRight="40sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewTextPersonName"
+            android:layout_width="53dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/transparent"
+            android:ems="10"
+            android:gravity="right"
+            android:inputType="textPersonName"
+            android:text="Capturas de"
+            android:textColor="#CF6311"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textColor="#D3610B"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="40sp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/bolaincognita" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/bolaincognita" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/bolaincognita" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="141dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/bolaincognita" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/bolaincognita" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/bolaincognita" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/bolaincognita" />
+    </LinearLayout>
+
+</LinearLayout>

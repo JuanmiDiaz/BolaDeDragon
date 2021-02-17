@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "955540725845",
+    "project_id": "boladedragon-ae83f",
+    "storage_bucket": "boladedragon-ae83f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955540725845:android:ceacdcfd1855930a7ef4dc",
+        "android_client_info": {
+          "package_name": "com.example.boladedragon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955540725845-hk4a8329nleqluv0dirr30ou77nop7gu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8LrlD2X10XfE6K1ZsaWQR2xlEeY6zzU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955540725845-hk4a8329nleqluv0dirr30ou77nop7gu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
